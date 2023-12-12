@@ -1,0 +1,344 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F7F7F7;
+    color: #0F54A8;
+   
+    
+   
+}
+
+header {
+    background-color: #0F54A8;
+    color: #F7F7F7;
+    padding: 10px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #F7F7F7;
+    font-weight: bold;
+   
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Alinea verticalmente los elementos */
+    background-color: #ffffff;
+    padding: 2em;
+}
+
+.text-principal {
+    padding: 1em;
+    margin-left: 250px; /* Ajusta el margen izquierdo según sea necesario */
+
+    align-items: center; /* Alinea verticalmente en el centro */
+    justify-content: center; /* Alinea horizontalmente en el centro */
+    width: 250px;
+   
+}
+
+
+.pricip {
+    text-align: center;
+    padding: 50px 0;
+}
+
+h1, h2  {
+    color: #0F54A8;
+    font-size: 30px;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 2px 2px 4px rgba(38, 79, 156, 0.7); /* Sombra para el subtítulo */
+    font-size: 1.5em; 
+}
+
+.boton button {
+    background-color: #0F54A8;
+    color: #F7F7F7;
+    padding: 10px 20px;
+    font-size: 16px;
+   border-radius: 5%;
+    cursor: pointer;
+    text-decoration: none; 
+}
+
+.boton button:hover {
+    background-color: #051c3f;
+}
+
+.footer {
+    background-color: #0F54A8;
+    color: #F7F7F7;
+    text-align: center;
+    padding: 20px 0;
+}
+.dibujos{
+    background-image: url('../assent/dibujos.jpeg');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; 
+    justify-content: space-between;
+    height:180px;
+}
+.d-palabras{
+    display: flex;
+    text-decoration: none;
+    color: #F7F7F7;
+    font-weight: bold;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 15px;
+    justify-content: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; /* Espaciado entre las imágenes y los párrafos */
+}
+
+.image-container {
+    position: relative;
+    height: 350px;
+}
+
+.image-container img {
+    width: 95%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor manteniendo su relación de aspecto */
+    border-radius: 25px; /* Ajusta el radio del borde según sea necesario */
+    transition: transform 0.5s ease; /* Agrega una transición suave al efecto */
+}
+
+.image-container:hover img {
+    transform: scale(1.2); /* Amplía la imagen en un 20% al pasar el ratón sobre ella */
+}
+
+
+.paragraph {
+    text-align: center; /* Alinea el párrafo al centro */
+    margin-top: 10px; /* Espacio entre la imagen y el párrafo */
+}
+.secc{
+    height: 400px;
+}
+.testimonio-caja {
+    background-color: #3498db; 
+    color: #ffffff; 
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonio-caja h4 {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    color:#FAC42E;
+}
+
+.testimonio-cajitas {
+     background-color: #0F54A8;
+    ; 
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+.img-reseña{
+    border-radius: 80%;
+    height: 80px;
+    width: 80px;
+    justify-content: right;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en una columna */
+    align-items: center; /* Alinea los elementos al centro horizontalmente */
+    padding: 0.4em;
+}
+
+.footer h2 {
+    color: #ccc; /* Color del texto */
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0.5em; /* Espaciado inferior entre h2 y otros elementos */
+}
+
+.footer a {
+    color: #ccc;
+    text-decoration: none; /* Elimina el subrayado en los enlaces */
+}
+
+
+
+h4{
+font-size: 22px;
+font-family: 'Abel', sans-serif;
+padding: 15px;
+}
+.direcion{
+   display: grid;
+    justify-content:right;
+}
+
+
+/*final*/
+
+.redes img {
+    width: 30px; 
+    height: 30px; 
+    margin: 0 10px;
+}
+
+.redes a {
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+    font-family: 'Roboto', sans-serif;
+}
+iframe {
+    border: 0;
+}
+/*otras paginas*/
+
+
+.box{
+    background-color: #0F54A8;
+    padding: 1.5rem;
+    border-radius: 25px;
+}
+/**/
+form {
+    background-color: #141c95;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: 0F54A8;
+    color: #3b8bb3;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+    background-color: 0F54A8;
+}
+
+.error-message {
+    color: #FAC42E;
+    margin-top: 8px;
+}
+.contacto{
+    background-image: url('../assent/contacto.png');
+    background-size: cover ; /* Para que la imagen de fondo cubra todo el div */
+    background-position: center center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: #ffffff; /* Color del texto blanco */
+    padding: 5px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+  
+.contactForm{
+    width: 300px; /* ajusta el ancho según tus necesidades */
+    padding: 30px;
+    border: 1px solid #ccc;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.separador {
+    background-color: #ffffff;
+    padding: 1.5em; 
+    justify-content: center;
+    
+}
+
+#contacto{
+    background-image: url('../assent/contacto.png');
+    padding: 0.5px;
+    max-width: 100%;
+    height: auto;
+}
+#argentina{
+    display: grid;
+    max-width: 100%;
+    height: auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; /* Espaciado entre las imágenes y los párrafos */
+    padding: 0.5em;
+   
+  
+}
+#nosotros{
+    max-width: 100%;
+    height: auto;
+
+}
+.main-argentina{
+    background-image: url('../assent/2.png');
+    background-repeat: no-repeat;
+    justify-content: right;
+    padding: 1.5px;
+    max-width: 100%;
+    height: 150%;
+}
+.main-argentina img{
+    max-width: 100%;
+    max-height: 150%;
+
+}
+.text-arg{
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: #FAC42E;
+}
